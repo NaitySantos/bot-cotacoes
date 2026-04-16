@@ -1,16 +1,23 @@
-# Bot de Cotacoes
+# 🛒 Bot de Monitoramento de Preços
 
-Bot em Python que monitora precos no Mercado Livre e envia alertas 
-por e-mail quando o preco cai abaixo de um valor definido.
+Automação em Python que monitora preços de produtos no Mercado Livre e envia alertas por e-mail quando o valor cai abaixo de um limite definido.
 
-## Tecnologias
+## 🚀 Funcionalidades
+- Monitoramento automático de preços
+- Definição de preço alvo
+- Envio de alerta por e-mail
+- Execução simples via script
+
+## 🧰 Tecnologias
 - Python 3
 - requests
 - BeautifulSoup4
+- SMTP (envio de e-mail)
 
-## Como usar
-1. Clone o repositorio
-2. Instale as dependencias: pip install requests beautifulsoup4
-3. Configure seu e-mail e senha de app no bot.py
-4. Defina o produto e o preco alvo no bot.py
-5. Rode: python bot.py
+## ⚙️ Como executar
+
+```bash
+git clone https://github.com/NaitySantos/bot-cotacoes
+cd bot-cotacoes
+pip install requests beautifulsoup4
+python bot.py
